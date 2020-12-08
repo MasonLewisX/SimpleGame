@@ -74,7 +74,7 @@ void ASpawnVolume::SpawnPickup() // ¾Æ¹«°Íµµ ¹İÈ¯ÇÏÁö ¾Ê°í ¾ÆÀÌÅÛÀ» »ı¼ºÇÏ±â¸¸ Ç
 			// Set the spawn parameters
 			FActorSpawnParameters SpawnParams;
 			SpawnParams.Owner = this; // »ı¼º½Ã ºÎ¸ğ´Â this°¡ µÊ. º¸ÀÏ·¯ÇÃ·¹ÀÌÆ® ÄÚµåÀÓ.(?)
-			SpawnParams.Instigator = Instigator; //´©°¡ ¾ÆÀÌÅÛÀ» ¸¸µé¾ú´ÂÁö, ´©°¡ ¸¸µé°Ô ÇÏ¿´´ÂÁö¸¦ ¸í½ÃÇØ ÁÜ.
+			//SpawnParams.Instigator = Instigator; //´©°¡ ¾ÆÀÌÅÛÀ» ¸¸µé¾ú´ÂÁö, ´©°¡ ¸¸µé°Ô ÇÏ¿´´ÂÁö¸¦ ¸í½ÃÇØ ÁÜ.
 
 
 			// ¸¸µå´Â À§Ä¡¿¡ ·£´ıÇÑ À§Ä¡¸¦ °í¸§.
