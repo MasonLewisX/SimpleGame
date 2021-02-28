@@ -77,7 +77,7 @@ void APublicCharacter::SetCurrentWeapon(class ASimpleWeapon* NewWeapon, class AS
 {
 	ASimpleWeapon* LocalOldWeapon = NULL;
 
-	if (OldWeapon != NULL) // 아니, 이 이하 작업을 Case문으로 하면 안되나? 왜 꼭 계속 if문을 쓰는거지?
+	if (OldWeapon != NULL)
 	{
 		LocalOldWeapon = OldWeapon;
 	}
